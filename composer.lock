@@ -4,8 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "bbb4311c884f0e935fb9e6a11e6c1c84",
-    "content-hash": "deb84dc24296531a1241c910f972004e",
+    "content-hash": "e41b8736fb3d8ac6497c78cf7f0d1503",
     "packages": [
         {
             "name": "antoinefr/flarum-ext-money",
@@ -40,7 +39,7 @@
             },
             "notification-url": "https://packagist.org/downloads/",
             "description": "Give money to your users for different actions.",
-            "time": "2017-01-22 12:12:24"
+            "time": "2017-01-22T12:12:24+00:00"
         },
         {
             "name": "avatar4eg/flarum-ext-users-list",
@@ -90,7 +89,7 @@
                 "Users",
                 "admin"
             ],
-            "time": "2016-09-16 08:42:06"
+            "time": "2016-09-16T08:42:06+00:00"
         },
         {
             "name": "clarkwinkelmann/flarum-ext-emojionearea",
@@ -127,20 +126,20 @@
                 }
             ],
             "description": "Add EmojiOne Area emoji picker to Flarum",
-            "time": "2017-02-01 21:38:37"
+            "time": "2017-02-01T21:38:37+00:00"
         },
         {
             "name": "cloudinary/cloudinary_php",
-            "version": "1.6.0",
+            "version": "1.7.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cloudinary/cloudinary_php.git",
-                "reference": "a72d12e560cfb2f189e035bd9ab1ac125c751f71"
+                "reference": "d0d33004aeb67224fa1c19339efd9118bf3c594e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cloudinary/cloudinary_php/zipball/a72d12e560cfb2f189e035bd9ab1ac125c751f71",
-                "reference": "a72d12e560cfb2f189e035bd9ab1ac125c751f71",
+                "url": "https://files.phpcomposer.com/files/cloudinary/cloudinary_php/d0d33004aeb67224fa1c19339efd9118bf3c594e.zip",
+                "reference": "d0d33004aeb67224fa1c19339efd9118bf3c594e",
                 "shasum": ""
             },
             "require": {
@@ -149,7 +148,7 @@
                 "php": ">=5.3.0"
             },
             "require-dev": {
-                "phpunit/phpunit": "4.7.*"
+                "phpunit/phpunit": "5.7.*"
             },
             "type": "library",
             "autoload": {
@@ -179,7 +178,7 @@
                 "image management",
                 "sdk"
             ],
-            "time": "2017-01-30 15:19:14"
+            "time": "2017-03-13T00:34:36+00:00"
         },
         {
             "name": "components/font-awesome",
@@ -214,7 +213,7 @@
                 "OFL-1.1"
             ],
             "description": "The iconic font designed for use with Twitter Bootstrap.",
-            "time": "2016-10-25 10:56:23"
+            "time": "2016-10-25T10:56:23+00:00"
         },
         {
             "name": "danielstjules/stringy",
@@ -270,7 +269,7 @@
                 "utility",
                 "utils"
             ],
-            "time": "2015-07-23 00:54:12"
+            "time": "2015-07-23T00:54:12+00:00"
         },
         {
             "name": "dflydev/fig-cookies",
@@ -322,20 +321,20 @@
                 "psr-7",
                 "psr7"
             ],
-            "time": "2016-03-28 09:10:18"
+            "time": "2016-03-28T09:10:18+00:00"
         },
         {
             "name": "doctrine/annotations",
-            "version": "v1.3.1",
+            "version": "v1.4.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/annotations.git",
-                "reference": "bd4461328621bde0ae6b1b2675fbc6aca4ceb558"
+                "reference": "54cacc9b81758b14e3ce750f205a393d52339e97"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/annotations/zipball/bd4461328621bde0ae6b1b2675fbc6aca4ceb558",
-                "reference": "bd4461328621bde0ae6b1b2675fbc6aca4ceb558",
+                "url": "https://files.phpcomposer.com/files/doctrine/annotations/54cacc9b81758b14e3ce750f205a393d52339e97.zip",
+                "reference": "54cacc9b81758b14e3ce750f205a393d52339e97",
                 "shasum": ""
             },
             "require": {
@@ -344,7 +343,7 @@
             },
             "require-dev": {
                 "doctrine/cache": "1.*",
-                "phpunit/phpunit": "^5.6.1"
+                "phpunit/phpunit": "^5.7"
             },
             "type": "library",
             "extra": {
@@ -390,7 +389,7 @@
                 "docblock",
                 "parser"
             ],
-            "time": "2016-12-30 15:59:45"
+            "time": "2017-02-24T16:22:25+00:00"
         },
         {
             "name": "doctrine/cache",
@@ -460,7 +459,7 @@
                 "cache",
                 "caching"
             ],
-            "time": "2016-10-29 11:16:17"
+            "time": "2016-10-29T11:16:17+00:00"
         },
         {
             "name": "doctrine/collections",
@@ -527,7 +526,7 @@
                 "collections",
                 "iterator"
             ],
-            "time": "2017-01-03 10:49:41"
+            "time": "2017-01-03T10:49:41+00:00"
         },
         {
             "name": "doctrine/common",
@@ -600,20 +599,20 @@
                 "persistence",
                 "spl"
             ],
-            "time": "2017-01-13 14:02:13"
+            "time": "2017-01-13T14:02:13+00:00"
         },
         {
             "name": "doctrine/dbal",
-            "version": "v2.5.10",
+            "version": "v2.5.12",
             "source": {
                 "type": "git",
                 "url": "https://github.com/doctrine/dbal.git",
-                "reference": "fc376f7a61498e18520cd6fa083752a4ca08072b"
+                "reference": "7b9e911f9d8b30d43b96853dab26898c710d8f44"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/doctrine/dbal/zipball/fc376f7a61498e18520cd6fa083752a4ca08072b",
-                "reference": "fc376f7a61498e18520cd6fa083752a4ca08072b",
+                "url": "https://files.phpcomposer.com/files/doctrine/dbal/7b9e911f9d8b30d43b96853dab26898c710d8f44.zip",
+                "reference": "7b9e911f9d8b30d43b96853dab26898c710d8f44",
                 "shasum": ""
             },
             "require": {
@@ -671,7 +670,7 @@
                 "persistence",
                 "queryobject"
             ],
-            "time": "2017-01-23 23:17:10"
+            "time": "2017-02-08T12:53:47+00:00"
         },
         {
             "name": "doctrine/inflector",
@@ -738,7 +737,7 @@
                 "singularize",
                 "string"
             ],
-            "time": "2015-11-06 14:35:42"
+            "time": "2015-11-06T14:35:42+00:00"
         },
         {
             "name": "doctrine/lexer",
@@ -792,24 +791,25 @@
                 "lexer",
                 "parser"
             ],
-            "time": "2014-09-09 13:34:57"
+            "time": "2014-09-09T13:34:57+00:00"
         },
         {
             "name": "filp/whoops",
-            "version": "2.1.5",
+            "version": "2.1.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filp/whoops.git",
-                "reference": "2abce9d956589122c6443d6265f01cf7e9388e3c"
+                "reference": "f2950be7da8b8d6c4e77821b6c9d486e36cdc4f3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/filp/whoops/zipball/2abce9d956589122c6443d6265f01cf7e9388e3c",
-                "reference": "2abce9d956589122c6443d6265f01cf7e9388e3c",
+                "url": "https://files.phpcomposer.com/files/filp/whoops/f2950be7da8b8d6c4e77821b6c9d486e36cdc4f3.zip",
+                "reference": "f2950be7da8b8d6c4e77821b6c9d486e36cdc4f3",
                 "shasum": ""
             },
             "require": {
-                "php": "^5.5.9 || ^7.0"
+                "php": "^5.5.9 || ^7.0",
+                "psr/log": "^1.0.1"
             },
             "require-dev": {
                 "mockery/mockery": "0.9.*",
@@ -852,7 +852,7 @@
                 "whoops",
                 "zf2"
             ],
-            "time": "2016-12-26 16:13:31"
+            "time": "2017-03-07T09:04:45+00:00"
         },
         {
             "name": "flagrow/flarum-ext-image-upload",
@@ -918,7 +918,7 @@
                 "upload"
             ],
             "abandoned": "flagrow/upload",
-            "time": "2016-10-31 09:13:16"
+            "time": "2016-10-31T09:13:16+00:00"
         },
         {
             "name": "flarum/core",
@@ -1008,7 +1008,7 @@
                 "discussion",
                 "forum"
             ],
-            "time": "2016-10-19 10:41:30"
+            "time": "2016-10-19T10:41:30+00:00"
         },
         {
             "name": "flarum/flarum-ext-akismet",
@@ -1063,7 +1063,7 @@
             "keywords": [
                 "moderation"
             ],
-            "time": "2016-10-19 10:42:05"
+            "time": "2016-10-19T10:42:05+00:00"
         },
         {
             "name": "flarum/flarum-ext-approval",
@@ -1116,7 +1116,7 @@
             "keywords": [
                 "moderation"
             ],
-            "time": "2016-10-19 10:42:14"
+            "time": "2016-10-19T10:42:14+00:00"
         },
         {
             "name": "flarum/flarum-ext-auth-facebook",
@@ -1169,7 +1169,7 @@
             "keywords": [
                 "Authentication"
             ],
-            "time": "2016-10-19 10:42:20"
+            "time": "2016-10-19T10:42:20+00:00"
         },
         {
             "name": "flarum/flarum-ext-auth-github",
@@ -1222,7 +1222,7 @@
             "keywords": [
                 "Authentication"
             ],
-            "time": "2016-10-19 10:42:27"
+            "time": "2016-10-19T10:42:27+00:00"
         },
         {
             "name": "flarum/flarum-ext-auth-twitter",
@@ -1275,7 +1275,7 @@
             "keywords": [
                 "Authentication"
             ],
-            "time": "2016-10-19 10:42:36"
+            "time": "2016-10-19T10:42:36+00:00"
         },
         {
             "name": "flarum/flarum-ext-bbcode",
@@ -1327,7 +1327,7 @@
             "keywords": [
                 "formatting"
             ],
-            "time": "2016-03-29 08:14:20"
+            "time": "2016-03-29T08:14:20+00:00"
         },
         {
             "name": "flarum/flarum-ext-emoji",
@@ -1378,7 +1378,7 @@
             "keywords": [
                 "formatting"
             ],
-            "time": "2016-10-19 10:42:56"
+            "time": "2016-10-19T10:42:56+00:00"
         },
         {
             "name": "flarum/flarum-ext-english",
@@ -1424,7 +1424,7 @@
             "keywords": [
                 "locale"
             ],
-            "time": "2016-10-19 10:43:02"
+            "time": "2016-10-19T10:43:02+00:00"
         },
         {
             "name": "flarum/flarum-ext-flags",
@@ -1476,7 +1476,7 @@
             "keywords": [
                 "moderation"
             ],
-            "time": "2016-10-19 10:43:08"
+            "time": "2016-10-19T10:43:08+00:00"
         },
         {
             "name": "flarum/flarum-ext-likes",
@@ -1528,7 +1528,7 @@
             "keywords": [
                 "discussion"
             ],
-            "time": "2016-10-19 10:43:14"
+            "time": "2016-10-19T10:43:14+00:00"
         },
         {
             "name": "flarum/flarum-ext-lock",
@@ -1580,7 +1580,7 @@
             "keywords": [
                 "moderation"
             ],
-            "time": "2016-10-19 10:43:19"
+            "time": "2016-10-19T10:43:19+00:00"
         },
         {
             "name": "flarum/flarum-ext-markdown",
@@ -1635,7 +1635,7 @@
             "keywords": [
                 "formatting"
             ],
-            "time": "2016-03-29 08:17:28"
+            "time": "2016-03-29T08:17:28+00:00"
         },
         {
             "name": "flarum/flarum-ext-mentions",
@@ -1687,7 +1687,7 @@
             "keywords": [
                 "discussion"
             ],
-            "time": "2016-10-19 10:43:31"
+            "time": "2016-10-19T10:43:31+00:00"
         },
         {
             "name": "flarum/flarum-ext-pusher",
@@ -1743,7 +1743,7 @@
             "keywords": [
                 "discussion"
             ],
-            "time": "2016-10-19 10:43:35"
+            "time": "2016-10-19T10:43:35+00:00"
         },
         {
             "name": "flarum/flarum-ext-sticky",
@@ -1795,7 +1795,7 @@
             "keywords": [
                 "discussion"
             ],
-            "time": "2016-10-19 10:43:40"
+            "time": "2016-10-19T10:43:40+00:00"
         },
         {
             "name": "flarum/flarum-ext-subscriptions",
@@ -1847,7 +1847,7 @@
             "keywords": [
                 "discussion"
             ],
-            "time": "2016-10-19 10:43:45"
+            "time": "2016-10-19T10:43:45+00:00"
         },
         {
             "name": "flarum/flarum-ext-suspend",
@@ -1899,7 +1899,7 @@
             "keywords": [
                 "moderation"
             ],
-            "time": "2016-10-19 10:43:51"
+            "time": "2016-10-19T10:43:51+00:00"
         },
         {
             "name": "flarum/flarum-ext-tags",
@@ -1951,7 +1951,7 @@
             "keywords": [
                 "discussion"
             ],
-            "time": "2016-11-07 11:52:19"
+            "time": "2016-11-07T11:52:19+00:00"
         },
         {
             "name": "franzl/whoops-middleware",
@@ -1981,25 +1981,25 @@
                 }
             },
             "notification-url": "https://packagist.org/downloads/",
-            "time": "2016-04-27 14:08:29"
+            "time": "2016-04-27T14:08:29+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
-            "version": "6.2.2",
+            "version": "6.2.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/guzzle.git",
-                "reference": "ebf29dee597f02f09f4d5bbecc68230ea9b08f60"
+                "reference": "8d6c6cc55186db87b7dc5009827429ba4e9dc006"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/guzzle/zipball/ebf29dee597f02f09f4d5bbecc68230ea9b08f60",
-                "reference": "ebf29dee597f02f09f4d5bbecc68230ea9b08f60",
+                "url": "https://files.phpcomposer.com/files/guzzle/guzzle/8d6c6cc55186db87b7dc5009827429ba4e9dc006.zip",
+                "reference": "8d6c6cc55186db87b7dc5009827429ba4e9dc006",
                 "shasum": ""
             },
             "require": {
                 "guzzlehttp/promises": "^1.0",
-                "guzzlehttp/psr7": "^1.3.1",
+                "guzzlehttp/psr7": "^1.4",
                 "php": ">=5.5"
             },
             "require-dev": {
@@ -2043,7 +2043,7 @@
                 "rest",
                 "web service"
             ],
-            "time": "2016-10-08 15:01:37"
+            "time": "2017-02-28T22:50:30+00:00"
         },
         {
             "name": "guzzlehttp/promises",
@@ -2094,20 +2094,20 @@
             "keywords": [
                 "promise"
             ],
-            "time": "2016-12-20 10:07:11"
+            "time": "2016-12-20T10:07:11+00:00"
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "1.3.1",
+            "version": "1.4.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "5c6447c9df362e8f8093bda8f5d8873fe5c7f65b"
+                "reference": "0d6c7ca039329247e4f0f8f8f6506810e8248855"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/5c6447c9df362e8f8093bda8f5d8873fe5c7f65b",
-                "reference": "5c6447c9df362e8f8093bda8f5d8873fe5c7f65b",
+                "url": "https://files.phpcomposer.com/files/guzzle/psr7/0d6c7ca039329247e4f0f8f8f6506810e8248855.zip",
+                "reference": "0d6c7ca039329247e4f0f8f8f6506810e8248855",
                 "shasum": ""
             },
             "require": {
@@ -2143,16 +2143,23 @@
                     "name": "Michael Dowling",
                     "email": "mtdowling@gmail.com",
                     "homepage": "https://github.com/mtdowling"
+                },
+                {
+                    "name": "Tobias Schultze",
+                    "homepage": "https://github.com/Tobion"
                 }
             ],
-            "description": "PSR-7 message implementation",
+            "description": "PSR-7 message implementation that also provides common utility methods",
             "keywords": [
                 "http",
                 "message",
+                "request",
+                "response",
                 "stream",
-                "uri"
+                "uri",
+                "url"
             ],
-            "time": "2016-06-24 23:00:38"
+            "time": "2017-02-27T10:51:17+00:00"
         },
         {
             "name": "http-interop/http-middleware",
@@ -2204,7 +2211,7 @@
                 "request",
                 "response"
             ],
-            "time": "2016-09-25 13:30:27"
+            "time": "2016-09-25T13:30:27+00:00"
         },
         {
             "name": "illuminate/bus",
@@ -2249,7 +2256,7 @@
             ],
             "description": "The Illuminate Bus package.",
             "homepage": "http://laravel.com",
-            "time": "2015-12-24 19:50:28"
+            "time": "2015-12-24T19:50:28+00:00"
         },
         {
             "name": "illuminate/cache",
@@ -2299,7 +2306,7 @@
             ],
             "description": "The Illuminate Cache package.",
             "homepage": "http://laravel.com",
-            "time": "2016-08-02 07:48:05"
+            "time": "2016-08-02T07:48:05+00:00"
         },
         {
             "name": "illuminate/config",
@@ -2344,7 +2351,7 @@
             ],
             "description": "The Illuminate Config package.",
             "homepage": "http://laravel.com",
-            "time": "2015-06-18 02:16:31"
+            "time": "2015-06-18T02:16:31+00:00"
         },
         {
             "name": "illuminate/container",
@@ -2387,7 +2394,7 @@
             ],
             "description": "The Illuminate Container package.",
             "homepage": "http://laravel.com",
-            "time": "2016-06-14 13:37:44"
+            "time": "2016-06-14T13:37:44+00:00"
         },
         {
             "name": "illuminate/contracts",
@@ -2429,7 +2436,7 @@
             ],
             "description": "The Illuminate Contracts package.",
             "homepage": "http://laravel.com",
-            "time": "2015-09-24 11:16:48"
+            "time": "2015-09-24T11:16:48+00:00"
         },
         {
             "name": "illuminate/database",
@@ -2489,7 +2496,7 @@
                 "orm",
                 "sql"
             ],
-            "time": "2016-08-10 12:23:17"
+            "time": "2016-08-10T12:23:17+00:00"
         },
         {
             "name": "illuminate/events",
@@ -2534,7 +2541,7 @@
             ],
             "description": "The Illuminate Events package.",
             "homepage": "http://laravel.com",
-            "time": "2015-12-30 20:19:08"
+            "time": "2015-12-30T20:19:08+00:00"
         },
         {
             "name": "illuminate/filesystem",
@@ -2584,7 +2591,7 @@
             ],
             "description": "The Illuminate Filesystem package.",
             "homepage": "http://laravel.com",
-            "time": "2016-05-28 21:16:16"
+            "time": "2016-05-28T21:16:16+00:00"
         },
         {
             "name": "illuminate/hashing",
@@ -2628,7 +2635,7 @@
             ],
             "description": "The Illuminate Hashing package.",
             "homepage": "http://laravel.com",
-            "time": "2015-11-29 16:58:05"
+            "time": "2015-11-29T16:58:05+00:00"
         },
         {
             "name": "illuminate/mail",
@@ -2680,7 +2687,7 @@
             ],
             "description": "The Illuminate Mail package.",
             "homepage": "http://laravel.com",
-            "time": "2016-08-04 14:14:51"
+            "time": "2016-08-04T14:14:51+00:00"
         },
         {
             "name": "illuminate/pipeline",
@@ -2724,7 +2731,7 @@
             ],
             "description": "The Illuminate Pipeline package.",
             "homepage": "http://laravel.com",
-            "time": "2015-10-05 21:58:27"
+            "time": "2015-10-05T21:58:27+00:00"
         },
         {
             "name": "illuminate/support",
@@ -2778,7 +2785,7 @@
             ],
             "description": "The Illuminate Support package.",
             "homepage": "http://laravel.com",
-            "time": "2016-06-11 16:44:59"
+            "time": "2016-06-11T16:44:59+00:00"
         },
         {
             "name": "illuminate/validation",
@@ -2828,7 +2835,7 @@
             ],
             "description": "The Illuminate Validation package.",
             "homepage": "http://laravel.com",
-            "time": "2016-05-28 21:16:16"
+            "time": "2016-05-28T21:16:16+00:00"
         },
         {
             "name": "illuminate/view",
@@ -2876,20 +2883,20 @@
             ],
             "description": "The Illuminate View package.",
             "homepage": "http://laravel.com",
-            "time": "2016-07-18 11:06:23"
+            "time": "2016-07-18T11:06:23+00:00"
         },
         {
             "name": "intervention/image",
-            "version": "2.3.10",
+            "version": "2.3.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Intervention/image.git",
-                "reference": "88911910dcbb7bf617f1370602ba1706489c8505"
+                "reference": "e8881fd99b9804b29e02d6d1c2c15ee459335cf1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Intervention/image/zipball/88911910dcbb7bf617f1370602ba1706489c8505",
-                "reference": "88911910dcbb7bf617f1370602ba1706489c8505",
+                "url": "https://files.phpcomposer.com/files/Intervention/image/e8881fd99b9804b29e02d6d1c2c15ee459335cf1.zip",
+                "reference": "e8881fd99b9804b29e02d6d1c2c15ee459335cf1",
                 "shasum": ""
             },
             "require": {
@@ -2938,7 +2945,7 @@
                 "thumbnail",
                 "watermark"
             ],
-            "time": "2017-01-25 18:52:04"
+            "time": "2017-02-04T10:37:19+00:00"
         },
         {
             "name": "ircmaxell/random-lib",
@@ -2993,7 +3000,7 @@
                 "random-numbers",
                 "random-strings"
             ],
-            "time": "2016-09-07 15:52:06"
+            "time": "2016-09-07T15:52:06+00:00"
         },
         {
             "name": "ircmaxell/security-lib",
@@ -3039,7 +3046,7 @@
             ],
             "description": "A Base Security Library",
             "homepage": "https://github.com/ircmaxell/SecurityLib",
-            "time": "2015-03-20 14:31:23"
+            "time": "2015-03-20T14:31:23+00:00"
         },
         {
             "name": "jsthon/flarum-ext-simplified-chinese",
@@ -3088,20 +3095,20 @@
             "keywords": [
                 "locale"
             ],
-            "time": "2016-04-09 10:34:05"
+            "time": "2016-04-09T10:34:05+00:00"
         },
         {
             "name": "league/flysystem",
-            "version": "1.0.34",
+            "version": "1.0.36",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/flysystem.git",
-                "reference": "469ad53c13ea19a0e54e3e5d70f61227ddcc0299"
+                "reference": "d9c1698582dfbfbd092ec9c5c3325f862cdb3297"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thephpleague/flysystem/zipball/469ad53c13ea19a0e54e3e5d70f61227ddcc0299",
-                "reference": "469ad53c13ea19a0e54e3e5d70f61227ddcc0299",
+                "url": "https://files.phpcomposer.com/files/thephpleague/flysystem/d9c1698582dfbfbd092ec9c5c3325f862cdb3297.zip",
+                "reference": "d9c1698582dfbfbd092ec9c5c3325f862cdb3297",
                 "shasum": ""
             },
             "require": {
@@ -3171,7 +3178,7 @@
                 "sftp",
                 "storage"
             ],
-            "time": "2017-01-30 17:41:17"
+            "time": "2017-03-18T16:02:30+00:00"
         },
         {
             "name": "league/oauth1-client",
@@ -3234,7 +3241,7 @@
                 "tumblr",
                 "twitter"
             ],
-            "time": "2016-08-17 00:36:58"
+            "time": "2016-08-17T00:36:58+00:00"
         },
         {
             "name": "league/oauth2-client",
@@ -3297,7 +3304,7 @@
                 "oauth2",
                 "single sign on"
             ],
-            "time": "2016-07-28 13:20:43"
+            "time": "2016-07-28T13:20:43+00:00"
         },
         {
             "name": "league/oauth2-facebook",
@@ -3348,7 +3355,7 @@
                 "oauth",
                 "oauth2"
             ],
-            "time": "2016-10-21 00:54:37"
+            "time": "2016-10-21T00:54:37+00:00"
         },
         {
             "name": "league/oauth2-github",
@@ -3404,20 +3411,20 @@
                 "oauth",
                 "oauth2"
             ],
-            "time": "2016-11-22 05:14:51"
+            "time": "2016-11-22T05:14:51+00:00"
         },
         {
             "name": "matthiasmullie/minify",
-            "version": "1.3.43",
+            "version": "1.3.44",
             "source": {
                 "type": "git",
                 "url": "https://github.com/matthiasmullie/minify.git",
-                "reference": "aa50b2dab6fa7bfd402d334fe51005d6f2526ad7"
+                "reference": "a7fc4a98ef8f2cf38bba701b51f1a84a1d67bc5c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/matthiasmullie/minify/zipball/aa50b2dab6fa7bfd402d334fe51005d6f2526ad7",
-                "reference": "aa50b2dab6fa7bfd402d334fe51005d6f2526ad7",
+                "url": "https://files.phpcomposer.com/files/matthiasmullie/minify/a7fc4a98ef8f2cf38bba701b51f1a84a1d67bc5c.zip",
+                "reference": "a7fc4a98ef8f2cf38bba701b51f1a84a1d67bc5c",
                 "shasum": ""
             },
             "require": {
@@ -3461,7 +3468,7 @@
                 "minifier",
                 "minify"
             ],
-            "time": "2017-01-26 15:48:07"
+            "time": "2017-03-16T16:42:50+00:00"
         },
         {
             "name": "matthiasmullie/path-converter",
@@ -3510,20 +3517,20 @@
                 "paths",
                 "relative"
             ],
-            "time": "2017-01-26 08:54:49"
+            "time": "2017-01-26T08:54:49+00:00"
         },
         {
             "name": "monolog/monolog",
-            "version": "1.22.0",
+            "version": "1.22.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "bad29cb8d18ab0315e6c477751418a82c850d558"
+                "reference": "1e044bc4b34e91743943479f1be7a1d5eb93add0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/bad29cb8d18ab0315e6c477751418a82c850d558",
-                "reference": "bad29cb8d18ab0315e6c477751418a82c850d558",
+                "url": "https://files.phpcomposer.com/files/Seldaek/monolog/1e044bc4b34e91743943479f1be7a1d5eb93add0.zip",
+                "reference": "1e044bc4b34e91743943479f1be7a1d5eb93add0",
                 "shasum": ""
             },
             "require": {
@@ -3588,7 +3595,7 @@
                 "logging",
                 "psr-3"
             ],
-            "time": "2016-11-26 00:15:39"
+            "time": "2017-03-13T07:08:03+00:00"
         },
         {
             "name": "nesbot/carbon",
@@ -3641,7 +3648,7 @@
                 "datetime",
                 "time"
             ],
-            "time": "2017-01-16 07:55:07"
+            "time": "2017-01-16T07:55:07+00:00"
         },
         {
             "name": "nikic/fast-route",
@@ -3684,27 +3691,27 @@
                 "router",
                 "routing"
             ],
-            "time": "2015-06-18 19:15:47"
+            "time": "2015-06-18T19:15:47+00:00"
         },
         {
             "name": "oyejorge/less.php",
-            "version": "v1.7.0.10",
+            "version": "v1.7.0.13",
             "source": {
                 "type": "git",
                 "url": "https://github.com/oyejorge/less.php.git",
-                "reference": "a1e2d3c20794b37ac4d0baeb24613e579584033b"
+                "reference": "f1bccbee4bc9c7fdb6873e8c246063e01365a9a8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/oyejorge/less.php/zipball/a1e2d3c20794b37ac4d0baeb24613e579584033b",
-                "reference": "a1e2d3c20794b37ac4d0baeb24613e579584033b",
+                "url": "https://files.phpcomposer.com/files/oyejorge/less.php/f1bccbee4bc9c7fdb6873e8c246063e01365a9a8.zip",
+                "reference": "f1bccbee4bc9c7fdb6873e8c246063e01365a9a8",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3"
             },
             "require-dev": {
-                "phpunit/phpunit": "~4.8.18"
+                "phpunit/phpunit": "~4.8.24"
             },
             "bin": [
                 "bin/lessc"
@@ -3734,9 +3741,13 @@
                 {
                     "name": "Josh Schmidt",
                     "homepage": "https://github.com/oyejorge"
+                },
+                {
+                    "name": "Michaël Marinetti",
+                    "homepage": "https://github.com/Asenar"
                 }
             ],
-            "description": "PHP port of the Javascript version of LESS http://lesscss.org",
+            "description": "PHP port of the Javascript version of LESS http://lesscss.org (Originally maintained by Josh Schmidt)",
             "homepage": "http://lessphp.gpeasy.com",
             "keywords": [
                 "css",
@@ -3746,20 +3757,20 @@
                 "php",
                 "stylesheet"
             ],
-            "time": "2015-12-30 05:47:36"
+            "time": "2017-02-23T14:18:55+00:00"
         },
         {
             "name": "paragonie/random_compat",
-            "version": "v1.4.1",
+            "version": "v1.4.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/paragonie/random_compat.git",
-                "reference": "c7e26a21ba357863de030f0b9e701c7d04593774"
+                "reference": "965cdeb01fdcab7653253aa81d40441d261f1e66"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/paragonie/random_compat/zipball/c7e26a21ba357863de030f0b9e701c7d04593774",
-                "reference": "c7e26a21ba357863de030f0b9e701c7d04593774",
+                "url": "https://files.phpcomposer.com/files/paragonie/random_compat/965cdeb01fdcab7653253aa81d40441d261f1e66.zip",
+                "reference": "965cdeb01fdcab7653253aa81d40441d261f1e66",
                 "shasum": ""
             },
             "require": {
@@ -3794,7 +3805,7 @@
                 "pseudorandom",
                 "random"
             ],
-            "time": "2016-03-18 20:34:03"
+            "time": "2017-03-13T16:22:52+00:00"
         },
         {
             "name": "psr/http-message",
@@ -3844,7 +3855,7 @@
                 "request",
                 "response"
             ],
-            "time": "2016-08-06 14:39:51"
+            "time": "2016-08-06T14:39:51+00:00"
         },
         {
             "name": "psr/log",
@@ -3891,7 +3902,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2016-10-10 12:19:37"
+            "time": "2016-10-10T12:19:37+00:00"
         },
         {
             "name": "pusher/pusher-php-server",
@@ -3935,7 +3946,7 @@
                 "rest",
                 "trigger"
             ],
-            "time": "2016-12-22 10:46:28"
+            "time": "2016-12-22T10:46:28+00:00"
         },
         {
             "name": "s9e/flarum-ext-mediaembed",
@@ -3980,7 +3991,7 @@
                 "twitter",
                 "youtube"
             ],
-            "time": "2015-12-04 17:40:51"
+            "time": "2015-12-04T17:40:51+00:00"
         },
         {
             "name": "s9e/text-formatter",
@@ -4040,7 +4051,7 @@
                 "parser",
                 "shortcodes"
             ],
-            "time": "2016-08-09 14:16:45"
+            "time": "2016-08-09T14:16:45+00:00"
         },
         {
             "name": "sijad/flarum-ext-details",
@@ -4097,7 +4108,7 @@
                 "summary",
                 "text"
             ],
-            "time": "2016-07-01 07:08:00"
+            "time": "2016-07-01T07:08:00+00:00"
         },
         {
             "name": "sijad/flarum-ext-links",
@@ -4149,7 +4160,7 @@
                 "menu",
                 "nav"
             ],
-            "time": "2016-05-03 20:05:44"
+            "time": "2016-05-03T20:05:44+00:00"
         },
         {
             "name": "sijad/flarum-ext-pages",
@@ -4199,20 +4210,20 @@
                 "page",
                 "static"
             ],
-            "time": "2016-10-23 14:52:44"
+            "time": "2016-10-23T14:52:44+00:00"
         },
         {
             "name": "swiftmailer/swiftmailer",
-            "version": "v5.4.5",
+            "version": "v5.4.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/swiftmailer/swiftmailer.git",
-                "reference": "cd142238a339459b10da3d8234220963f392540c"
+                "reference": "81fdccfaf8bdc5d5d7a1ef6bb3a61bbb1a6c4a3e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/swiftmailer/swiftmailer/zipball/cd142238a339459b10da3d8234220963f392540c",
-                "reference": "cd142238a339459b10da3d8234220963f392540c",
+                "url": "https://files.phpcomposer.com/files/swiftmailer/swiftmailer/81fdccfaf8bdc5d5d7a1ef6bb3a61bbb1a6c4a3e.zip",
+                "reference": "81fdccfaf8bdc5d5d7a1ef6bb3a61bbb1a6c4a3e",
                 "shasum": ""
             },
             "require": {
@@ -4253,25 +4264,25 @@
                 "mail",
                 "mailer"
             ],
-            "time": "2016-12-29 10:02:40"
+            "time": "2017-02-13T07:52:53+00:00"
         },
         {
             "name": "symfony/console",
-            "version": "v2.8.16",
+            "version": "v2.8.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "2e18b8903d9c498ba02e1dfa73f64d4894bb6912"
+                "reference": "81508e6fac4476771275a3f4f53c3fee9b956bfa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/2e18b8903d9c498ba02e1dfa73f64d4894bb6912",
-                "reference": "2e18b8903d9c498ba02e1dfa73f64d4894bb6912",
+                "url": "https://files.phpcomposer.com/files/symfony/console/81508e6fac4476771275a3f4f53c3fee9b956bfa.zip",
+                "reference": "81508e6fac4476771275a3f4f53c3fee9b956bfa",
                 "shasum": ""
             },
             "require": {
                 "php": ">=5.3.9",
-                "symfony/debug": "~2.7,>=2.7.2|~3.0.0",
+                "symfony/debug": "^2.7.2|~3.0.0",
                 "symfony/polyfill-mbstring": "~1.0"
             },
             "require-dev": {
@@ -4314,20 +4325,20 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2017-01-08 20:43:03"
+            "time": "2017-03-04T11:00:12+00:00"
         },
         {
             "name": "symfony/debug",
-            "version": "v2.7.23",
+            "version": "v2.7.25",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/debug.git",
-                "reference": "b3bdc191eb708991c0c380fccf9bfbfaca4ae6d5"
+                "reference": "ae2d80df72335512355cf1686044ac54505e519f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/debug/zipball/b3bdc191eb708991c0c380fccf9bfbfaca4ae6d5",
-                "reference": "b3bdc191eb708991c0c380fccf9bfbfaca4ae6d5",
+                "url": "https://files.phpcomposer.com/files/symfony/debug/ae2d80df72335512355cf1686044ac54505e519f.zip",
+                "reference": "ae2d80df72335512355cf1686044ac54505e519f",
                 "shasum": ""
             },
             "require": {
@@ -4339,7 +4350,7 @@
             },
             "require-dev": {
                 "symfony/class-loader": "~2.2",
-                "symfony/http-kernel": "~2.3.24|~2.5.9|~2.6,>=2.6.2"
+                "symfony/http-kernel": "~2.3.24|~2.5.9|^2.6.2"
             },
             "type": "library",
             "extra": {
@@ -4371,20 +4382,20 @@
             ],
             "description": "Symfony Debug Component",
             "homepage": "https://symfony.com",
-            "time": "2017-01-02 20:30:00"
+            "time": "2017-02-18T18:28:08+00:00"
         },
         {
             "name": "symfony/finder",
-            "version": "v2.7.23",
+            "version": "v2.7.25",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "927a4a6c37fc59e1331f4300cc138f4a752eeb12"
+                "reference": "d8633c69cd53165ca71786f9e0a591b06ce87403"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/927a4a6c37fc59e1331f4300cc138f4a752eeb12",
-                "reference": "927a4a6c37fc59e1331f4300cc138f4a752eeb12",
+                "url": "https://files.phpcomposer.com/files/symfony/finder/d8633c69cd53165ca71786f9e0a591b06ce87403.zip",
+                "reference": "d8633c69cd53165ca71786f9e0a591b06ce87403",
                 "shasum": ""
             },
             "require": {
@@ -4420,20 +4431,20 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2017-01-02 20:30:00"
+            "time": "2017-02-21T08:32:25+00:00"
         },
         {
             "name": "symfony/http-foundation",
-            "version": "v2.7.23",
+            "version": "v2.7.25",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-foundation.git",
-                "reference": "f84ffa8da993170c10fd3a109400c01ad2c0fe8a"
+                "reference": "d45f940f3b55a0c99eae8482c726be264ad1c8dc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-foundation/zipball/f84ffa8da993170c10fd3a109400c01ad2c0fe8a",
-                "reference": "f84ffa8da993170c10fd3a109400c01ad2c0fe8a",
+                "url": "https://files.phpcomposer.com/files/symfony/http-foundation/d45f940f3b55a0c99eae8482c726be264ad1c8dc.zip",
+                "reference": "d45f940f3b55a0c99eae8482c726be264ad1c8dc",
                 "shasum": ""
             },
             "require": {
@@ -4476,7 +4487,7 @@
             ],
             "description": "Symfony HttpFoundation Component",
             "homepage": "https://symfony.com",
-            "time": "2017-01-06 17:20:46"
+            "time": "2017-03-04T10:53:31+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
@@ -4535,20 +4546,20 @@
                 "portable",
                 "shim"
             ],
-            "time": "2016-11-14 01:06:16"
+            "time": "2016-11-14T01:06:16+00:00"
         },
         {
             "name": "symfony/translation",
-            "version": "v2.7.23",
+            "version": "v2.7.25",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/translation.git",
-                "reference": "f158ed71fe8921de1409a7823221dcfe5070425a"
+                "reference": "07f9bd6f87dcb23c0ed77b5d83a903387a77e039"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/translation/zipball/f158ed71fe8921de1409a7823221dcfe5070425a",
-                "reference": "f158ed71fe8921de1409a7823221dcfe5070425a",
+                "url": "https://files.phpcomposer.com/files/symfony/translation/07f9bd6f87dcb23c0ed77b5d83a903387a77e039.zip",
+                "reference": "07f9bd6f87dcb23c0ed77b5d83a903387a77e039",
                 "shasum": ""
             },
             "require": {
@@ -4560,7 +4571,7 @@
             "require-dev": {
                 "psr/log": "~1.0",
                 "symfony/config": "~2.7",
-                "symfony/intl": "~2.4",
+                "symfony/intl": "~2.7.25|^2.8.18",
                 "symfony/yaml": "~2.2"
             },
             "suggest": {
@@ -4598,20 +4609,20 @@
             ],
             "description": "Symfony Translation Component",
             "homepage": "https://symfony.com",
-            "time": "2017-01-02 20:30:00"
+            "time": "2017-03-03T16:35:37+00:00"
         },
         {
             "name": "symfony/yaml",
-            "version": "v2.8.16",
+            "version": "v2.8.18",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
-                "reference": "dbe61fed9cd4a44c5b1d14e5e7b1a8640cfb2bf2"
+                "reference": "2a7bab3c16f6f452c47818fdd08f3b1e49ffcf7d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/yaml/zipball/dbe61fed9cd4a44c5b1d14e5e7b1a8640cfb2bf2",
-                "reference": "dbe61fed9cd4a44c5b1d14e5e7b1a8640cfb2bf2",
+                "url": "https://files.phpcomposer.com/files/symfony/yaml/2a7bab3c16f6f452c47818fdd08f3b1e49ffcf7d.zip",
+                "reference": "2a7bab3c16f6f452c47818fdd08f3b1e49ffcf7d",
                 "shasum": ""
             },
             "require": {
@@ -4647,7 +4658,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "https://symfony.com",
-            "time": "2017-01-03 13:49:52"
+            "time": "2017-03-01T18:13:50+00:00"
         },
         {
             "name": "tijsverkoyen/akismet",
@@ -4686,7 +4697,7 @@
             ],
             "description": "Akismet is a wrapper-class to communicate with the Akismet API.",
             "homepage": "https://github.com/tijsverkoyen/Akismet",
-            "time": "2016-07-19 13:50:18"
+            "time": "2016-07-19T13:50:18+00:00"
         },
         {
             "name": "tobscure/json-api",
@@ -4736,7 +4747,7 @@
                 "jsonapi",
                 "standard"
             ],
-            "time": "2016-03-31 09:25:28"
+            "time": "2016-03-31T09:25:28+00:00"
         },
         {
             "name": "vingle/flarum-configure-smtp",
@@ -4783,7 +4794,7 @@
             "keywords": [
                 "smtp"
             ],
-            "time": "2016-04-07 04:07:17"
+            "time": "2016-04-07T04:07:17+00:00"
         },
         {
             "name": "vingle/flarum-share-social",
@@ -4834,20 +4845,20 @@
                 "social",
                 "twitter"
             ],
-            "time": "2015-12-13 10:36:14"
+            "time": "2015-12-13T10:36:14+00:00"
         },
         {
             "name": "wiwatsrt/flarum-ext-best-answer",
-            "version": "v0.1.0-beta.5",
+            "version": "v0.1.0-beta.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wiwatsrt/flarum-ext-best-answer.git",
-                "reference": "bc8232749ade9dc0686ba329bfe4be1f0179c83b"
+                "reference": "6ec77356dd00c6959a14767749fb6669c92c35f3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wiwatsrt/flarum-ext-best-answer/zipball/bc8232749ade9dc0686ba329bfe4be1f0179c83b",
-                "reference": "bc8232749ade9dc0686ba329bfe4be1f0179c83b",
+                "url": "https://files.phpcomposer.com/files/wiwatsrt/flarum-ext-best-answer/6ec77356dd00c6959a14767749fb6669c92c35f3.zip",
+                "reference": "6ec77356dd00c6959a14767749fb6669c92c35f3",
                 "shasum": ""
             },
             "require": {
@@ -4887,7 +4898,7 @@
                 "best-answer",
                 "flarum"
             ],
-            "time": "2016-11-11 01:16:51"
+            "time": "2017-02-17T13:47:00+00:00"
         },
         {
             "name": "xengine/flarum-ext-markdown-editor",
@@ -4925,7 +4936,7 @@
                 }
             ],
             "description": "WYSIWYG Editor for Flarum",
-            "time": "2016-11-04 07:20:12"
+            "time": "2016-11-04T07:20:12+00:00"
         },
         {
             "name": "zendframework/zend-diactoros",
@@ -4975,7 +4986,7 @@
                 "psr",
                 "psr-7"
             ],
-            "time": "2017-01-23 04:53:24"
+            "time": "2017-01-23T04:53:24+00:00"
         },
         {
             "name": "zendframework/zend-escaper",
@@ -5019,7 +5030,7 @@
                 "escaper",
                 "zf2"
             ],
-            "time": "2016-06-30 19:48:38"
+            "time": "2016-06-30T19:48:38+00:00"
         },
         {
             "name": "zendframework/zend-stratigility",
@@ -5072,7 +5083,7 @@
                 "middleware",
                 "psr-7"
             ],
-            "time": "2017-01-23 22:59:03"
+            "time": "2017-01-23T22:59:03+00:00"
         }
     ],
     "packages-dev": [
@@ -5130,20 +5141,20 @@
                 "development",
                 "workflow"
             ],
-            "time": "2016-03-05 18:49:56"
+            "time": "2016-03-05T18:49:56+00:00"
         },
         {
             "name": "symfony/filesystem",
-            "version": "v3.2.2",
+            "version": "v3.2.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/filesystem.git",
-                "reference": "a0c6ef2dc78d33b58d91d3a49f49797a184d06f4"
+                "reference": "bc0f17bed914df2cceb989972c3b996043c4da4a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/filesystem/zipball/a0c6ef2dc78d33b58d91d3a49f49797a184d06f4",
-                "reference": "a0c6ef2dc78d33b58d91d3a49f49797a184d06f4",
+                "url": "https://files.phpcomposer.com/files/symfony/filesystem/bc0f17bed914df2cceb989972c3b996043c4da4a.zip",
+                "reference": "bc0f17bed914df2cceb989972c3b996043c4da4a",
                 "shasum": ""
             },
             "require": {
@@ -5179,20 +5190,20 @@
             ],
             "description": "Symfony Filesystem Component",
             "homepage": "https://symfony.com",
-            "time": "2017-01-08 20:47:33"
+            "time": "2017-03-06T19:30:27+00:00"
         },
         {
             "name": "symfony/process",
-            "version": "v3.2.2",
+            "version": "v3.2.6",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/process.git",
-                "reference": "350e810019fc52dd06ae844b6a6d382f8a0e8893"
+                "reference": "68bfa8c83f24c0ac04ea7193bcdcda4519f41892"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/process/zipball/350e810019fc52dd06ae844b6a6d382f8a0e8893",
-                "reference": "350e810019fc52dd06ae844b6a6d382f8a0e8893",
+                "url": "https://files.phpcomposer.com/files/symfony/process/68bfa8c83f24c0ac04ea7193bcdcda4519f41892.zip",
+                "reference": "68bfa8c83f24c0ac04ea7193bcdcda4519f41892",
                 "shasum": ""
             },
             "require": {
@@ -5228,7 +5239,7 @@
             ],
             "description": "Symfony Process Component",
             "homepage": "https://symfony.com",
-            "time": "2017-01-02 20:32:22"
+            "time": "2017-03-04T12:23:14+00:00"
         }
     ],
     "aliases": [],

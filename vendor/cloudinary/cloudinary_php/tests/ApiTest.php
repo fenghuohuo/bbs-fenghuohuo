@@ -9,9 +9,9 @@ namespace Cloudinary {
 
   use Cloudinary;
   use Exception;
-  use PHPUnit_Framework_TestCase;
+  use PHPUnit\Framework\TestCase;
 
-class ApiTest extends PHPUnit_Framework_TestCase {
+  class ApiTest extends TestCase {
   static $api_test_tag = "cloudinary_php_test";
   static $initialized = FALSE;
   static $timestamp_tag;
@@ -393,6 +393,29 @@ class ApiTest extends PHPUnit_Framework_TestCase {
     assertUrl($this, "/transformations/c_scale,w_100");
     assertDelete($this);
 
+  }
+
+  function test_transformation_delete_with_invalidate() {
+    // should allow deleting and invalidating a transformation
+    Curl::mockApi($this);
+
+    // should pass 'invalidate' param when 'invalidate' is set to true
+    $this->api->delete_transformation("c_scale,w_100,a_90", array("invalidate" => true));
+    assertUrl($this, "/transformations/c_scale,w_100,a_90");
+    assertDelete($this);
+    assertParam($this, "invalidate", "1");
+
+    // should pass 'invalidate' param when 'invalidate' is set to false
+    $this->api->delete_transformation("c_scale,w_100,a_90", array("invalidate" => false));
+    assertUrl($this, "/transformations/c_scale,w_100,a_90");
+    assertDelete($this);
+    assertParam($this, "invalidate", "");
+
+    // should not pass 'invalidate' param if not set
+    $this->api->delete_transformation("c_scale,w_100,a_90");
+    assertUrl($this, "/transformations/c_scale,w_100,a_90");
+    assertDelete($this);
+    assertNoParam($this, "invalidate");
   }
 
   function test18_usage() {

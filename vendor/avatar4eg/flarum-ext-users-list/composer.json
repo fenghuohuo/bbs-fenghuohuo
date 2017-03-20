@@ -27,5 +27,11 @@
         "color": "#000000"
       }
     }
-  }
+  },
+  "repositories": {
+    "packagist": {
+        "type": "composer",
+        "url": "https://packagist.phpcomposer.com"
+    }
+}
 }

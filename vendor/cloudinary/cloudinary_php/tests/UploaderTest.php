@@ -7,9 +7,9 @@ namespace Cloudinary {
   require_once( 'TestHelper.php');
   use Cloudinary;
   use Exception;
-  use PHPUnit_Framework_TestCase;
+  use PHPUnit\Framework\TestCase;
 
-  class UploaderTest extends PHPUnit_Framework_TestCase {
+  class UploaderTest extends TestCase {
     const LOGO_PNG = "tests/logo.png";
 
     const TEST_ICO = "tests/favicon.ico";
@@ -33,7 +33,6 @@ namespace Cloudinary {
 
     public function test_upload() {
           $result = Uploader::upload(self::LOGO_PNG);
-          print_r($result);
     switch ($result["resource_type"]) {
       case "image":
         // generate image tag
@@ -74,12 +73,40 @@ namespace Cloudinary {
         $fields = Curl::$instance->fields();
         $this->assertArraySubset(array("type"=>"twitter_name", "eager"=> "c_scale,w_2.0"),$fields);
       }
-  
+
+	  public function test_build_eager() {
+		  $eager = array(
+			  "0" => array(
+				  "0" => array(
+					  "width" => 3204,
+					  "crop"  => "scale"
+				  ),
+			  ),
+			  "1" => array(
+				  "angle" => array(
+					  "0" => 127
+				  ),
+
+				  "format" => "jpg"
+			  )
+
+
+		  );
+		  $this->assertEquals("c_scale,w_3204|a_127/jpg",Cloudinary::build_eager($eager));
+	  }
+
       public function test_eager() {
         Curl::mockUpload($this);
         Uploader::upload(self::LOGO_PNG, array("eager"=>array("crop"=>"scale", "width"=>"2.0")));
         $fields = Curl::$instance->fields();
         $this->assertArraySubset(array("eager"=> "c_scale,w_2.0"),$fields);
+      }
+  
+      public function test_upload_async() {
+        Curl::mockUpload($this);
+        Uploader::upload(self::LOGO_PNG, array("transformation"=>array("crop"=>"scale", "width"=>"2.0"), "async"=>TRUE));
+        $fields = Curl::$instance->fields();
+        $this->assertArraySubset(array("async"=> TRUE),$fields);
       }
   
       public function test_headers() {
