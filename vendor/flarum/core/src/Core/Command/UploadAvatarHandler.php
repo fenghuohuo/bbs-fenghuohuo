@@ -100,7 +100,8 @@ class UploadAvatarHandler
             $manager = new ImageManager;
 
             // Explicitly tell Intervention to encode the image as JSON (instead of having to guess from the extension)
-            $encodedImage = $manager->make($tmpFile)->fit(100, 100)->encode('jpg', 100);
+	    $type = mime_content_type($tmpFile);
+            $encodedImage = $manager->make($tmpFile)->fit(100, 100)->encode($type, 100);
             file_put_contents($tmpFile, $encodedImage);
 
             $this->events->fire(
